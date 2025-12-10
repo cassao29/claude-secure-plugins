@@ -1,0 +1,8 @@
+# Gitleaks ignore file
+# Add patterns or file paths to ignore false positives
+
+# Example AWS keys used in documentation (official AWS example key)
+wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# Documentation files with example patterns (not real secrets)
+plugins/security/secrets-validator/skills/secrets-validator/SKILL.md

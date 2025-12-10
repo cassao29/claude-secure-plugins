@@ -1,0 +1,55 @@
+# Environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# Credentials
+credentials.json
+service-account.json
+*-credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# AWS
+.aws/
+
+# SSH
+.ssh/
+id_rsa*
+id_dsa*
+id_ed25519*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Reports
+report.json
+gitleaks-report.json
