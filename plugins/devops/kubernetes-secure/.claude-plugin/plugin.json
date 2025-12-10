@@ -1,0 +1,9 @@
+{
+  "name": "kubernetes-secure",
+  "description": "Generate Kubernetes manifests with security hardening by default. Includes PodSecurityContext, NetworkPolicies, and resource limits.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Cássio Santos",
+    "email": "cassao@gmail.com"
+  }
+}

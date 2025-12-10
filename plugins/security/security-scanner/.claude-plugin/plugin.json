@@ -1,0 +1,9 @@
+{
+  "name": "security-scanner",
+  "description": "Scan Docker Compose, Kubernetes, and infrastructure files for security misconfigurations. Identifies exposed ports, missing security options, and insecure defaults.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Cássio Santos",
+    "email": "cassao@gmail.com"
+  }
+}

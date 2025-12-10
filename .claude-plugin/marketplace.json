@@ -1,0 +1,36 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code@main/.claude-plugin/marketplace.schema.json",
+  "name": "claude-secure-plugins",
+  "version": "1.0.0",
+  "description": "Security-first Claude Code plugins with audited configurations and secure defaults",
+  "owner": {
+    "name": "Cássio Santos",
+    "email": "cassao@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "docker-compose-secure",
+      "description": "Generate Docker Compose configurations with security hardening: localhost port binding, no-new-privileges, health checks",
+      "source": "./plugins/devops/docker-compose-secure",
+      "category": "security"
+    },
+    {
+      "name": "kubernetes-secure",
+      "description": "Generate Kubernetes manifests with PodSecurityContext, NetworkPolicies, and resource limits by default",
+      "source": "./plugins/devops/kubernetes-secure",
+      "category": "security"
+    },
+    {
+      "name": "security-scanner",
+      "description": "Scan Docker Compose, Kubernetes, and Terraform files for security misconfigurations and exposed ports",
+      "source": "./plugins/security/security-scanner",
+      "category": "security"
+    },
+    {
+      "name": "secrets-validator",
+      "description": "Detect exposed secrets, API keys, passwords, and credentials in code and configuration files",
+      "source": "./plugins/security/secrets-validator",
+      "category": "security"
+    }
+  ]
+}
